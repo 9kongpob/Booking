@@ -7905,3 +7905,1152 @@ Stack trace:
 REQUEST_URI=/booking/index.php?r=booking/index
 in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
 in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 10:44:20 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 10:44:32 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 10:44:36 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 10:44:42 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 10:44:55 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 10:48:28 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "index" ตามคำสั่งได้ in C:\xampp\htdocs\booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('Member')
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=Member
+---
+2019/12/11 11:04:25 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 11:05:06 [error] [php] Undefined index: get_fname (C:\xampp\htdocs\booking\protected\controllers\System_settingController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): System_settingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\protected\controllers\System_settingController.php (13)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 11:05:09 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 11:05:13 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 13:21:59 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 13:22:09 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 13:22:22 [error] [php] Undefined index: get_fname (C:\xampp\htdocs\booking\protected\controllers\System_settingController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): System_settingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\protected\controllers\System_settingController.php (13)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:00:52 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "index" ตามคำสั่งได้ in C:\xampp\htdocs\booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('Member')
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=Member
+---
+2019/12/11 14:03:16 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:11:38 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:09 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:10 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:11 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:13 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:17 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:56 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:57 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:12:59 [error] [php] Undefined index: txt_username (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (17)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:13:04 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:13:32 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:13:34 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:15:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'booking111' in C:\xampp\htdocs\booking\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\booking\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\booking\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 C:\xampp\htdocs\booking\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\xampp\htdocs\booking\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\booking\framework\db\ar\CActiveRecord.php(1522): CActiveRecord->getTableAlias(true)
+#7 C:\xampp\htdocs\booking\protected\controllers\MemberController.php(19): CActiveRecord->findByAttributes(Array)
+#8 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): MemberController->actionLoginCheck()
+#9 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('LoginCheck')
+#13 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/LoginChe...')
+#14 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/11 14:15:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'booking111' in C:\xampp\htdocs\booking\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\booking\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\booking\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 C:\xampp\htdocs\booking\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\xampp\htdocs\booking\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\booking\framework\db\ar\CActiveRecord.php(1522): CActiveRecord->getTableAlias(true)
+#7 C:\xampp\htdocs\booking\protected\controllers\MemberController.php(19): CActiveRecord->findByAttributes(Array)
+#8 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): MemberController->actionLoginCheck()
+#9 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('LoginCheck')
+#13 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/LoginChe...')
+#14 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/11 14:16:33 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:23:15 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:46:08 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:25 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:26 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:29 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:34 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:38 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:41 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Logout
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:45 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 14:59:54 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Member_edit&id=1
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:00 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/Index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:06 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:13 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:17 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?q=jdk&search=
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:17 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:18 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:18 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:19 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:19 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:21 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:36 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:37 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?q=jdk&search=
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:44 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:00:52 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Login
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:01:42 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Logout
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:02:42 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Logout
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:02:45 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Login
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:03 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Login/gii
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:08 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:09 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:09 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:09 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:11 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=site/Index
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:25 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Logout
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:03:31 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Logout
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:04:52 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "index" ตามคำสั่งได้ in C:\xampp\htdocs\booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('Member')
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=Member
+---
+2019/12/11 15:05:27 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:19:40 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:39:42 [error] [php] Undefined index: get_fname (C:\xampp\htdocs\booking\protected\controllers\System_settingController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): System_settingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\protected\controllers\System_settingController.php (13)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:39:47 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:39:50 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:39:54 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:40:03 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:41:30 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:41:54 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:42:03 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:42:55 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:43:55 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:44:43 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:45:37 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:46:04 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:46:15 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:46:18 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:46:29 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:47:13 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:47:19 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:51:14 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:51:24 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:51:57 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:52:12 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:54:34 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:54:38 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:54:45 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:54:54 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "book_report" ตามคำสั่งได้ in C:\xampp\htdocs\booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(270): CController->missingAction('book_report')
+#1 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('book_report')
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/book_re...')
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/book_report
+---
+2019/12/11 15:57:44 [error] [exception.Error] Error: Call to a member function hasErrors() on null in C:\xampp\htdocs\booking\framework\web\helpers\CHtml.php:1985
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\widgets\CActiveForm.php(914): CHtml::activeDropDownList(NULL, 'booking_room_id', Array, Array)
+#1 C:\xampp\htdocs\booking\protected\views\booking\booking_view.php(37): CActiveForm->dropDownList(NULL, 'booking_room_id', Array, Array)
+#2 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('booking_view', Array, true)
+#6 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(49): CController->render('booking_view', Array)
+#7 [internal function]: BookingController->actionBooking_view(NULL)
+#8 C:\xampp\htdocs\booking\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BookingController), Array)
+#9 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BookingController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('booking_view')
+#14 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/booking...')
+#15 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/booking/index.php?r=booking/booking_view
+---
+2019/12/11 15:58:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "booking_view". in C:\xampp\htdocs\booking\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking_view')
+#1 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/booking/index.php?r=booking_view
+---
+2019/12/11 15:59:22 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 15:59:30 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "index000" ตามคำสั่งได้ in C:\xampp\htdocs\booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(270): CController->missingAction('index000')
+#1 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('index000')
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/index00...')
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/index000
+HTTP_REFERER=http://localhost/booking/index.php?r=booking/booking_create
+---
+2019/12/11 15:59:39 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:00:05 [error] [php] Undefined index: get_room (C:\xampp\htdocs\booking\protected\controllers\BookingController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/index
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (9)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:01:30 [error] [php] Undefined index: get_fname (C:\xampp\htdocs\booking\protected\controllers\System_settingController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): System_settingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\protected\controllers\System_settingController.php (13)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:01:35 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:01:54 [error] [php] Undefined index: date1 (C:\xampp\htdocs\booking\protected\views\booking\report.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): BookingController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): BookingController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\BookingController.php(97): BookingController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): BookingController->actionReport()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): BookingController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): BookingController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): BookingController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=booking/report
+in C:\xampp\htdocs\booking\protected\views\booking\report.php (55)
+in C:\xampp\htdocs\booking\protected\controllers\BookingController.php (97)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:08:34 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:08:50 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:09:03 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:09:12 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:09:42 [error] [php] Trying to get property 'member_username' of non-object (C:\xampp\htdocs\booking\protected\controllers\MemberController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): MemberController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): MemberController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\protected\controllers\MemberController.php (20)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:10:01 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "LoginCheck1111" ตามคำสั่งได้ in C:\xampp\htdocs\booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(270): CController->missingAction('LoginCheck1111')
+#1 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('LoginCheck1111')
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/LoginChe...')
+#3 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck1111
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/11 16:13:39 [error] [php] Undefined index: get_fname (C:\xampp\htdocs\booking\protected\controllers\System_settingController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(286): System_settingController->runAction()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#2 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#3 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=system_setting/member_setting
+in C:\xampp\htdocs\booking\protected\controllers\System_settingController.php (13)
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:24:27 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:24:52 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Logout
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:25:07 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/Login
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:25:13 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member/LoginCheck
+in C:\xampp\htdocs\booking\index.php (13)
+2019/12/11 16:25:16 [error] [php] Uninitialized string offset: 0 (C:\xampp\htdocs\booking\framework\web\CHttpRequest.php:478)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=Member
+in C:\xampp\htdocs\booking\index.php (13)
