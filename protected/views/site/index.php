@@ -26,7 +26,9 @@
                             <?php echo date("D d"); ?>
                         </h3>
                         <p>
-                            <?php echo date("M H:i A"); ?>
+                            <!-- <?php date_default_timezone_set('YOUR TIMEZONE'); ?> -->
+                            <!-- <?php echo $timestamp = date('H:i:s'); ?> -->
+                            <?php echo date("M H:i:s A"); ?>
                         </p>
                         <p> &nbsp;</p>
                     </div>
@@ -295,4 +297,19 @@
             }
         });
     })
+
+
+// $(document).ready(function() {
+//     setInterval(timestamp, 1000);
+// });
+
+// function timestamp() {
+//     $.ajax({
+//         url: 'http://localhost/booking/index.php',
+//         success: function(data) {
+//             $('#timestamp').html(data);
+//         },
+//     });
+// }
+
 </script>
