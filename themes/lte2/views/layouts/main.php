@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Hospital Office</title>
+        <title>SIWT Management System</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- Bootstrap 3.3.4 -->
         <link href="<?php echo Yii::app()->theme->baseUrl; ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -42,9 +42,9 @@
                 <!-- Logo -->
                 <a href="index.php?r=site/index" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
-                    <span class="logo-mini"><b>B</b>MS</span>
+                    <span class="logo-mini"><b>SIWT</b>MS</span>
                     <!-- logo for regular state and mobile devices -->
-                    <span class="logo-lg"><b>Booking </b>MS</span>
+                    <span class="logo-lg"><b>SIWT </b>MS</span>
                 </a>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top" role="navigation">
@@ -144,14 +144,14 @@
                         </div>
                     </div>
                     <!-- search form -->
-                    <form action="#" method="get" class="sidebar-form">
+                    <!-- <form action="#" method="get" class="sidebar-form">
                         <div class="input-group">
                             <input type="text" name="q" class="form-control" placeholder="Search..."/>
                             <span class="input-group-btn">
                                 <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
                             </span>
                         </div>
-                    </form>
+                    </form> -->
                     <!-- /.search form -->
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
@@ -224,9 +224,9 @@
 
             <footer class="main-footer">
                 <div class="pull-right hidden-xs">
-                    <b>Version</b> 2.0
+                    <b>Version</b> 1.0
                 </div>
-                <strong>Copyright &copy; <?php echo date("Y"); ?> Template by <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> พัฒนาโดย ณัฐวุฒิ วงษ์แพทย์ โรงพยาบาลอู่ทอง จ.สุพรรณบุรี
+                <strong>Copyright &copy; <?php echo date("Y"); ?> Futher Develop By IT SIWT </strong>
             </footer>
 
             <!-- Control Sidebar -->

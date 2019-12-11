@@ -20,7 +20,7 @@
     </head>
     <body class="bg-black">
         <div class="form-box" id="login-box">
-            <div class="header"> <img src="images/logo_32.png" alt=""/> BMS</div>
+            <div class="header"> <img src="images/logo_32.png" alt=""/> SIWT Management System</div>
 
 
 

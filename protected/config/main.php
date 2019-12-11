@@ -6,7 +6,7 @@
 // CWebApplication properties can be configured here.
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'BMS',
+    'name' => 'SIWT Management System',
     'theme' => 'lte2',
     'language' => 'th',
     'timeZone' => 'Asia/Bangkok',
