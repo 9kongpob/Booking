@@ -26,9 +26,7 @@
                             <?php echo date("D d"); ?>
                         </h3>
                         <p>
-                            <!-- <?php date_default_timezone_set('YOUR TIMEZONE'); ?> -->
-                            <!-- <?php echo $timestamp = date('H:i:s'); ?> -->
-                            <?php echo date("M H:i:s A"); ?>
+                            <?php echo date("M H:i:s "); ?>
                         </p>
                         <p> &nbsp;</p>
                     </div>
@@ -190,12 +188,12 @@
                                 ?>
                                 <li class = "item">
                                     <div class = "product-img">
-                                        <img src="images/news_pic/icon_news5.png" alt=""/>
+                                        <img src="images/news_pic/icon_news2.png" alt=""/>
                                     </div>
                                     <div class = "product-info">
-                                        <a href = "#myModal" data-toggle="modal" data-target="#edit-modal<?php echo $res["id"]; ?>" class = "product-title"><?php echo $res["news_head"]; ?><?php echo $txt_day; ?></a>
+                                        <a href = "#myModal" data-toggle="modal" data-target="#edit-modal<?php echo $res["id"]; ?>" class = "product-title"><?php echo $res["news_head"]; ?><?php echo $txt_day; ?>
                                         <span class = "product-description"> <?php echo $res["news_detail"]; ?> </span>
-                                        <span class = "product-description text-yellow"> <?php echo setDateTh(Yii::app()->dateFormatter->formatDateTime(($res["date"]), "long", "")); ?> </span>
+                                        <span class = "product-description text-yellow"> โพสต์เมื่อ <?php echo setDateTh(Yii::app()->dateFormatter->formatDateTime(($res["date"]), "long", "")); ?> </span></a>
                                     </div>
                                 </li>
 
@@ -285,7 +283,7 @@
     $('#edit-modal').on('show.bs.modal', function (e) {
 
         var $modal = $(this),
-                esseyId = e.relatedTarget.id;
+            esseyId = e.relatedTarget.id;
 
         $.ajax({
             cache: false,
@@ -297,19 +295,4 @@
             }
         });
     })
-
-
-// $(document).ready(function() {
-//     setInterval(timestamp, 1000);
-// });
-
-// function timestamp() {
-//     $.ajax({
-//         url: 'http://localhost/booking/index.php',
-//         success: function(data) {
-//             $('#timestamp').html(data);
-//         },
-//     });
-// }
-
 </script>

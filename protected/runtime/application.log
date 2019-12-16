@@ -9054,3 +9054,286 @@ Stack trace:
 #1 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
 REQUEST_URI=/booking/index.php?r=Member
 in C:\xampp\htdocs\booking\index.php (13)
+2019/12/12 08:16:03 [error] [exception.Error] Error: Call to undefined function updateClock() in C:\xampp\htdocs\booking\protected\views\site\index.php:32
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:16:35 [error] [exception.Error] Error: Call to undefined function updateClock() in C:\xampp\htdocs\booking\protected\views\site\index.php:32
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:16:36 [error] [exception.Error] Error: Call to undefined function updateClock() in C:\xampp\htdocs\booking\protected\views\site\index.php:32
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:16:36 [error] [exception.Error] Error: Call to undefined function updateClock() in C:\xampp\htdocs\booking\protected\views\site\index.php:32
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:16:36 [error] [exception.Error] Error: Call to undefined function updateClock() in C:\xampp\htdocs\booking\protected\views\site\index.php:32
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:16:36 [error] [exception.Error] Error: Call to undefined function updateClock() in C:\xampp\htdocs\booking\protected\views\site\index.php:32
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:36 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:38 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:46 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:47 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:47 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:47 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:47 [error] [exception.Error] Error: Call to undefined function Timer() in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 08:20:53 [error] [exception.Error] Error: Function name must be a string in C:\xampp\htdocs\booking\protected\views\site\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\booking\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#2 C:\xampp\htdocs\booking\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\booking\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#4 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): CController->render('index')
+#5 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\booking\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\booking\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\booking\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/booking/index.php
+HTTP_REFERER=http://localhost/booking/index.php?r=Member/Login
+---
+2019/12/12 14:53:51 [error] [php] A non-numeric value encountered (C:\xampp\htdocs\booking\protected\views\site\index.php:196)
+Stack trace:
+#0 C:\xampp\htdocs\booking\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\booking\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\booking\protected\controllers\SiteController.php(37): SiteController->render()
+#3 C:\xampp\htdocs\booking\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\booking\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\booking\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php
+in C:\xampp\htdocs\booking\protected\views\site\index.php (196)
+in C:\xampp\htdocs\booking\protected\controllers\SiteController.php (37)
+in C:\xampp\htdocs\booking\index.php (13)
