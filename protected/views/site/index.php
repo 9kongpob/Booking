@@ -27,6 +27,7 @@
                         </h3>
                         <p>
                             <?php echo date("M H:i:s "); ?>
+                            <p id="time"></p>
                         </p>
                         <p> &nbsp;</p>
                     </div>
@@ -295,4 +296,18 @@
             }
         });
     })
+
+    $(document).ready(function() {
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+var timestamp = '<?=time();?>';
+function updateTime(){
+  $('#time').html(Date(timestamp));
+  timestamp++;
+}
+$(function(){
+  setInterval(updateTime, 1000);
+});
 </script>
