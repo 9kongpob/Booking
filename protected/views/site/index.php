@@ -27,7 +27,14 @@
                         </h3>
                         <p>
                             <?php echo date("M H:i:s "); ?>
+                            
                             <p id="time"></p>
+
+                        <body onload=display_ct();>
+                        <span id='ct' onload=display_ct();></span>
+
+                        </body>
+
                         </p>
                         <p> &nbsp;</p>
                     </div>
@@ -278,7 +285,17 @@
     </section><!--/.content -->
 </aside><!--/.right-side -->
 
+<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
 
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();}
+</script>
 
 <script>
     $('#edit-modal').on('show.bs.modal', function (e) {
@@ -298,16 +315,4 @@
     })
 
     $(document).ready(function() {
-
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript">
-var timestamp = '<?=time();?>';
-function updateTime(){
-  $('#time').html(Date(timestamp));
-  timestamp++;
-}
-$(function(){
-  setInterval(updateTime, 1000);
-});
 </script>

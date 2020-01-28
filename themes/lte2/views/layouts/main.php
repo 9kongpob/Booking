@@ -42,9 +42,9 @@
                 <!-- Logo -->
                 <a href="index.php?r=site/index" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
-                    <span class="logo-mini"><b>SIWT</b>MS</span>
+                    <span class="logo-mini"><b>SIWT</b></span>
                     <!-- logo for regular state and mobile devices -->
-                    <span class="logo-lg"><b>SIWT </b>MS</span>
+                    <span class="logo-lg"><b>SIWT MS</b></span>
                 </a>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top" role="navigation">
