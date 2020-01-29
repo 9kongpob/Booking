@@ -26,9 +26,9 @@
                             <?php echo date("D d"); ?>
                         </h3>
                         <p>
-                            <?php echo date("M H:i:s "); ?>
-                            
-                            <p id="time"></p>
+                            <!-- <?php echo date("M H:i:s "); ?> -->
+                            <?php echo date("M "); ?>
+                            <!-- <p id="time"></p> -->
 
                         <body onload=display_ct();>
                         <span id='ct' onload=display_ct();></span>
@@ -285,16 +285,46 @@
     </section><!--/.content -->
 </aside><!--/.right-side -->
 
+
 <script type="text/javascript"> 
+
 function display_c(){
-var refresh=1000; // Refresh rate in milli seconds
-mytime=setTimeout('display_ct()',refresh)
+    var refresh=1000; // Refresh rate in milli seconds
+    mytime=setTimeout('display_ct()',refresh)
+}
+
+function get_Hours_2digit(x){
+
+    if(x.getHours() < 10){
+        var y = "0" + x.getHours();
+    }else{
+        var y =  x.getHours();
+    }
+
+    return y;
+}
+
+function get_seconds_2digit(x){
+
+    if(x.getSeconds() < 10){
+        var y = "0" + x.getSeconds();
+    }else{
+        var y =  x.getSeconds();
+    }
+    
+    return y;
 }
 
 function display_ct() {
+
 var x = new Date()
-document.getElementById('ct').innerHTML = x;
-display_c();}
+//var x1 = x.getMonth() +  + "/" + x.getDate() + "/" + x.getYear(); 
+var x1 = get_Hours_2digit(x) + ":" +  x.getMinutes() + ":" +  get_seconds_2digit(x);
+document.getElementById('ct').innerHTML = x1;
+display_c();
+
+}
+
 </script>
 
 <script>
