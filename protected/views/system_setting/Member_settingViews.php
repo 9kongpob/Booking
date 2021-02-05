@@ -84,7 +84,7 @@
                     'headerHtmlOptions' => array(
                         'style' => 'text-align:left;color:#06c;font-size:14px;'
                     ),
-                    'value' => '$data->member_pname."".$data->member_fname." ".$data->member_lname',
+                    'value' => '$data->member_fname." ".$data->member_lname',
                     'htmlOptions' => array(
                         'style' => 'text-align:left;color:#333;font-size:14px;',
                         'width' => '30%'

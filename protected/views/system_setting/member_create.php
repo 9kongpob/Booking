@@ -58,7 +58,7 @@
                             <label style="color: #060;">คำนำหน้าชื่อ</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-list"></i></span>
-                                <?php echo $frm->dropDownList($model1, "member_pname", array('-' => '-','นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control', 'required' => 'True')); ?>
+                                <?php echo $frm->dropDownList($model1, "member_pname", array('-' => '','นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control', 'required' => 'True')); ?>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -142,14 +142,14 @@
                     <div style="clear: both;"></div><br>
 
                     <div class="form-group">
-                        <div class="col-lg-6">
+                        <!-- <div class="col-lg-6">
                             <label style="color: #060;">เลขประจำตัวประชาชน</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
                                 <?php echo $frm->textField($model1, "member_cid", array('class' => 'form-control', 'placeholder' => 'เลขประจำตัวประชาชน..', 'maxlength' => 13)); ?>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
+                        </div> -->
+                        <div class="col-lg-12">
                             <label style="color: #060;">หมายเลขโทรศัพท์</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-phone"></i></span>

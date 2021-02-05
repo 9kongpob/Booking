@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <link rel="shortcut icon" href="../favicon.ico?v=1" />
+        <link rel="icon" type="image/x-icon" href="../favicon.ico?v=1" />
+
         <meta charset="UTF-8">
         <title>SIWT Management System</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>

@@ -57,7 +57,7 @@
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-list"></i></span>
 
-                    <?php echo $frm->dropDownList($model, 'member_pname', array('-' => '-','นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control', 'prompt' => 'เลือกคำนำหน้าชื่อ..')); ?>
+                    <?php echo $frm->dropDownList($model, 'member_pname', array('-' => '','นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control', 'prompt' => 'เลือกคำนำหน้าชื่อ..')); ?>
                 </div>
             </div>
             <div class="col-lg-3">
@@ -74,13 +74,13 @@
                     <?php echo $frm->textField($model, "member_lname", array('class' => 'form-control', 'placeholder' => 'ระบุสกุล..')); ?>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <label>เลขประจำตัวประชาชน</label>
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
                     <?php echo $frm->textField($model, "member_cid", array('class' => 'form-control', 'placeholder' => 'ระบุเลขประจำตัวประชาชน..')); ?>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div style="clear: both;"></div><br>
 

@@ -65,7 +65,8 @@ class MemberModels extends CActiveRecord
         $arr = array();
         foreach ($getModel as $r)
         {
-            $arr[$r->member_id] = $r->member_pname . "" . $r->member_fname . " " . $r->member_lname;
+            //$arr[$r->member_id] = $r->member_pname . "" . $r->member_fname . " " . $r->member_lname;
+            $arr[$r->member_id] = $r->member_fname . " " . $r->member_lname;
         }
         return $arr;
     }
