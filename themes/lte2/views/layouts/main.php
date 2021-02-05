@@ -176,6 +176,7 @@
                                 <i class="fa fa-calendar"></i> <span>จองห้องประชุม</span> <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
+                                <li><a href="index.php?r=booking/schedule_booking"><i class="fa fa-circle-o text-purple"></i> ตารางจองห้อง</a></li>
                                 <li><a href="index.php?r=booking/index"><i class="fa fa-circle-o text-purple"></i> จองห้อง</a></li>
                                 <?php
                                 if ((strpos(Yii::app()->session["member_access"], '[booking_manage]')) or ( strpos(Yii::app()->session["member_access"], '[Admin]')))
@@ -226,7 +227,7 @@
                 <div class="pull-right hidden-xs">
                     <b>Version</b> 1.0
                 </div>
-                <strong>Copyright &copy; <?php echo date("Y"); ?> Futher Develop By IT SIWT </strong>
+                <strong>Copyright &copy; <?php echo date("Y"); ?> Futher Development By IT SIWT </strong>
             </footer>
 
             <!-- Control Sidebar -->

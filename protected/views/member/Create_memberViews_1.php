@@ -57,7 +57,7 @@
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-list"></i></span>
 
-                    <?php echo $frm->dropDownList($model, 'member_pname', array('นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control', 'prompt' => 'เลือกคำนำหน้าชื่อ..')); ?>
+                    <?php echo $frm->dropDownList($model, 'member_pname', array('-' => '-','นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control', 'prompt' => 'เลือกคำนำหน้าชื่อ..')); ?>
                 </div>
             </div>
             <div class="col-lg-3">

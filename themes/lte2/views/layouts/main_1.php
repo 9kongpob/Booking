@@ -310,7 +310,7 @@
                 <div class="pull-right hidden-xs">
                     <b>Version</b> 1.0
                 </div>
-                <strong>Copyright &copy; <?php echo date("Y"); ?></strong> Futher Develop By IT SIWT
+                <strong>Copyright &copy; <?php echo date("Y"); ?></strong> Futher Development By IT SIWT
                 <!-- <strong>Copyright &copy; <?php echo date("Y"); ?> Template by <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> พัฒนาโดย ณัฐวุฒิ วงษ์แพทย์ โรงพยาบาลอู่ทอง จ.สุพรรณบุรี -->
             </footer>
 

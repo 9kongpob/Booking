@@ -9428,3 +9428,117 @@ Stack trace:
 REQUEST_URI=/booking/index.php?r=site/Index
 HTTP_REFERER=http://localhost/booking/index.php
 ---
+2020/10/22 11:18:10 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=booking/index
+---
+2020/10/22 11:18:17 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=site/Index
+---
+2020/10/22 11:18:25 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=site/Index
+---
+2020/10/22 11:18:28 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=site/Index
+---
+2021/02/05 09:45:28 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=site/Index
+---
+2021/02/05 09:45:49 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=system_setting/member_setting
+---
+2021/02/05 10:08:34 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://192.168.1.127/booking/index.php
+---
+2021/02/05 10:10:20 [error] [exception.CHttpException.404] CHttpException: ระบบไม่สามารถดำเนินการ "schedule_booking" ตามคำสั่งได้ in C:\xampp\htdocs\Booking\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\CController.php(270): CController->missingAction('schedule_bookin...')
+#1 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): CController->run('schedule_bookin...')
+#2 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController('booking/schedul...')
+#3 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Booking\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/booking/index.php?r=booking/schedule_booking
+HTTP_REFERER=http://localhost/booking/index.php?r=booking/index
+---
+2021/02/05 10:25:31 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\Booking\protected\controllers\System_settingController.php:49)
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\Booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Booking\framework\web\CController.php(286): System_settingController->runAction()
+#3 C:\xampp\htdocs\Booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#4 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#5 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=System_setting/Member_edit&id=3
+in C:\xampp\htdocs\Booking\protected\controllers\System_settingController.php (49)
+in C:\xampp\htdocs\Booking\index.php (13)
+2021/02/05 10:27:08 [error] [php] count(): Parameter must be an array or an object that implements Countable (C:\xampp\htdocs\Booking\protected\controllers\System_settingController.php:49)
+Stack trace:
+#0 C:\xampp\htdocs\Booking\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\Booking\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\Booking\framework\web\CController.php(286): System_settingController->runAction()
+#3 C:\xampp\htdocs\Booking\framework\web\CController.php(265): System_settingController->runActionWithFilters()
+#4 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(282): System_settingController->run()
+#5 C:\xampp\htdocs\Booking\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\Booking\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Booking\index.php(13): CWebApplication->run()
+REQUEST_URI=/booking/index.php?r=System_setting/Member_edit&id=3
+in C:\xampp\htdocs\Booking\protected\controllers\System_settingController.php (49)
+in C:\xampp\htdocs\Booking\index.php (13)

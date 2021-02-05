@@ -52,7 +52,7 @@
                             <label style="color: #060;">คำนำหน้าชื่อ</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-list"></i></span>
-                                <?php echo $frm->dropDownList($model, "member_pname", array('นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control')); ?>
+                                <?php echo $frm->dropDownList($model, "member_pname", array('-' => '-','นาย' => 'นาย', 'นาง' => 'นาง', 'นางสาว' => 'นางสาว'), array('class' => 'form-control')); ?>
                             </div>
                         </div>
                         <div class="col-lg-4">
